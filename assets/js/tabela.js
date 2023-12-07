@@ -20,4 +20,11 @@ function createCard(data, dia, jogos){
     `
 }
 document.querySelector("#cards").innerHTML =  
-createCard("24/11", "quinta", createGame("santos", "13:00", "palmeiras"))
+createCard("24/11", "quinta", createGame("santos", "13:00", "palmeiras")) +
+createCard("24/11", "quinta", createGame("corinthians", "05:00", "bahia")) +
+createCard("24/11", "quinta", createGame("corinthians", "16:00", "bota"))  +
+createCard("24/11", "quinta", createGame("corinthians", "20:00", "atletico"))+
+createCard("24/11", "quinta", createGame("bota", "15:00", "santos"))+
+createCard("24/11", "quinta", createGame("palmeiras", "08:00", "atletico")) +
+createCard("24/11", "quinta", createGame("santos", "07:00", "gremio")) +
+createCard("24/11", "quinta", createGame("bota", "18:00", "bahia")) 
